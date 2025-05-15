@@ -87,7 +87,7 @@ class TecnicoController extends Controller
         $user->save();
 
         // Asignar el rol "técnico"
-        $tecnicos->assignRole('tecnico');
+        $user->assignRole('tecnico');
         
         return redirect('tecnico');
     }

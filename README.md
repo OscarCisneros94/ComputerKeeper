@@ -1,3 +1,27 @@
+# Computer Keeper
+
+**Integrantes:** Miguel Ángel Muñoz Montaño, Óscar Javier Cisneros Sandoval
+
+Este proyecto es una aplicación web desarrollada con Laravel que permite gestionar servicios de soporte técnico para clientes.  
+Los usuarios pueden registrar clientes (empresariales o particulares), equipos asociados y servicios con sus respectivos estados.
+
+## Instalación y Configuración
+
+- Clonar el repositorio.
+- Instalar las dependencias de PHP con el comando: `composer install`.
+- Instalar las dependencias de Node.js con el comando: `npm install`.
+- Crear un archivo `.env` donde se realizará la configuración de conexión a la base de datos.
+- Generar una clave de seguridad con el comando: `php artisan key:generate`.
+- Ejecutar las migraciones y seeders con el comando: `php artisan migrate --seed`.
+- Levantar el servidor.
+
+Una vez realizado esto, se podrá acceder con las siguientes credenciales:
+
+- **Usuario:** admin@gmail.com  
+- **Contraseña:** 12345678
+
+Este será nuestro usuario administrador, desde el cual se podrán crear más usuarios (Técnicos)./
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
