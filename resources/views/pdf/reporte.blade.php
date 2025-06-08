@@ -3,6 +3,40 @@
 <head>
     <title>Reporte de Servicios</title>
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        word-wrap: break-word;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .footer {
+        margin-top: 20px;
+        text-align: right;
+        font-size: 10px;
+    }
+</style>
 <body>
     <h1>Reporte de Servicios</h1>
     <table border="1">
